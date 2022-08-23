@@ -65,7 +65,7 @@ header{
 
 .menu-navegacion{
     position: fixed;
-    z-index: 20;/*Este propiedad la puse por el efecto de las img de abajo*/
+    z-index: 20;/*Este propiedad la puse por el efecto de las img de la gallery*/
     top: 0;
     right: 0;
     width: 30vw;
@@ -305,9 +305,19 @@ footer{
     color: #fff;
 }
 
-.social-media-icon:hover{
+.social-media-icon.face:hover{
     background: #fff;
-    color: #764ba2;
+    color: #3b5998;
+}
+
+.social-media-icon.twitter:hover{
+    background: #fff;
+    color:  #00acee;
+}
+
+.social-media-icon.instagram:hover{
+    background: #fff;
+    color: #bc2a8d;
 }
 
 .social-media-icon i{
